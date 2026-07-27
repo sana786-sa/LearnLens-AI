@@ -1,16 +1,88 @@
-# React + Vite
+# 🚀 LearnLens AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Your Smart AI-Powered Learning Companion 🤖📚
 
-Currently, two official plugins are available:
+LearnLens AI is an intelligent study assistant designed to help students learn faster and smarter using Artificial Intelligence.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+It transforms study notes into simplified explanations, generates quizzes, creates flashcards, and builds personalized study plans with AI assistance.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🌟 Features
 
-## Expanding the ESLint configuration
+### 🤖 AI Note Scanner
+- Upload handwritten or digital notes
+- Ask AI to explain difficult concepts
+- Get simple student-friendly explanations
+- Save AI-generated notes
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 📝 AI Quiz Generator
+- Generate MCQs from any topic
+- Practice important concepts
+- Improve exam preparation
+
+### 🎴 AI Flashcard Generator
+- Create revision flashcards automatically
+- Quick learning and memorization support
+
+### 📅 AI Study Planner
+- Create personalized study schedules
+- Plan preparation according to:
+  - Subject
+  - Exam date
+  - Available study hours
+
+### 📚 My Learning Library
+- Save notes
+- Save quizzes
+- Save flashcards
+- Track learning history
+
+### 👤 User Authentication
+- Secure Firebase Authentication
+- Personal student dashboard
+- User profile management
+
+---
+
+# 🛠️ Technology Stack
+
+## Frontend
+- React.js
+- Vite
+- Tailwind CSS
+- React Router
+
+## Backend / Services
+- Firebase Authentication
+- Firebase Firestore Database
+
+## Artificial Intelligence
+- Google Gemini AI API
+
+## Tools
+- GitHub
+- Vercel Deployment
+
+---
+
+# 📸 Application Screens
+
+## Dashboard
+Student dashboard showing learning progress, saved content, and quick actions.
+
+## AI Scanner
+Upload notes and get AI-powered explanations.
+
+## Quiz Generator
+Generate AI-based quizzes for better preparation.
+
+## Flashcards
+Create smart revision cards.
+
+## Study Planner
+Generate personalized AI study schedules.
+
+---
+
+# 📂 Project Structure
