@@ -1,102 +1,187 @@
-# 🚀 LearnLens AI  
+# 🚀 LearnLens AI
 ## Your Smart AI Learning Companion 🤖📚
 
-<p align="center">
-  An AI-powered learning platform that helps students learn smarter, faster, and better using Artificial Intelligence.
-</p>
-
-<p align="center">
-  🌐 <b>Live Demo:</b>  
-  <a href="https://learn-lens-ai-virid.vercel.app/">
-  https://learn-lens-ai-virid.vercel.app/
-  </a>
-</p>
+🌐 **Live Application:**  
+https://learn-lens-ai-virid.vercel.app/
 
 ---
 
-# 📖 Overview
+# 📖 Project Overview
 
-**LearnLens AI** is an intelligent AI-based learning assistant designed to transform the way students study.
+LearnLens AI is an AI-powered educational platform designed to help students learn smarter, faster, and more effectively.
 
-The platform uses **Google Gemini AI** to help students understand difficult concepts, generate learning material, create quizzes, build flashcards, and develop personalized study plans.
+The idea behind LearnLens AI came from a real student problem: many students struggle with understanding difficult topics, organizing study material, creating revision notes, preparing quizzes, and managing their study schedules before exams.
 
-LearnLens AI combines Artificial Intelligence with modern web technologies to provide a personalized and interactive learning experience.
+Instead of using multiple tools for different learning tasks, LearnLens AI provides an all-in-one AI learning companion where students can understand concepts, generate learning material, and plan their studies from a single platform.
+
+The application uses **Google Gemini AI** to provide personalized educational assistance according to students' learning needs.
 
 ---
 
-# ✨ Key Features
+# 🧩 Problem Statement
+
+Students often face several challenges during their learning journey:
+
+- Difficulty understanding complex topics
+- Spending too much time creating notes manually
+- Lack of personalized study guidance
+- Difficulty preparing practice questions
+- Poor revision planning before exams
+
+Traditional learning methods do not always provide personalized support according to each student's requirements.
+
+---
+
+# 💡 Solution
+
+LearnLens AI solves these problems by providing an intelligent AI-powered learning assistant.
+
+Students can:
+
+- Upload notes and get AI explanations
+- Generate quizzes automatically
+- Create flashcards for revision
+- Generate personalized study plans
+- Track their learning progress
+
+The goal is to make learning more interactive, organized, and personalized.
+
+---
+
+# 👥 Target Users
+
+LearnLens AI is designed for:
+
+- School students
+- University students
+- Exam preparation students
+- Self-learners
+- Anyone who wants AI-assisted learning support
+
+---
+
+# ✨ Features
 
 ## 🤖 AI Note Scanner
-- Upload study notes or images
-- Analyze learning material using AI
-- Generate simple explanations
-- Get important points and summaries
-- Receive exam preparation tips
+
+The AI Note Scanner helps students understand their learning material easily.
+
+Features:
+
+- Upload handwritten or digital notes/images
+- Analyze notes using Artificial Intelligence
+- Convert difficult concepts into simple explanations
+- Generate summaries
+- Provide important points
+- Give exam preparation tips
 - Save AI-generated notes
 
 ---
 
 ## 📝 AI Quiz Generator
-- Generate smart quizzes automatically
-- Practice important concepts
+
+The quiz generator helps students practice and test their knowledge.
+
+Features:
+
+- Generate AI-powered quizzes
+- Create practice questions from topics
 - Improve exam preparation
-- Save generated quizzes for revision
+- Save generated quizzes
+- Review important concepts
 
 ---
 
 ## 🎴 AI Flashcards Generator
-- Create AI-powered revision cards
-- Quickly review concepts
-- Improve learning and memory retention
+
+Flashcards make revision faster and easier.
+
+Features:
+
+- Create AI-generated flashcards
+- Convert topics into revision cards
+- Quickly review important concepts
+- Improve memory retention
 
 ---
 
 ## 📅 AI Study Planner
-- Generate personalized study schedules
-- Add subjects and exam dates
-- Plan daily study hours
-- Get AI-based study strategies
+
+The AI Study Planner creates personalized study schedules.
+
+Students can provide:
+
+- Subject name
+- Exam date
+- Available study hours
+
+AI generates:
+
+- Daily study schedule
+- Topic distribution
+- Revision strategy
+- Weak area improvement tips
+- Exam day strategy
 
 ---
 
 ## 📊 Smart Learning Dashboard
 
-The dashboard helps students track:
+The dashboard allows students to monitor their learning activities.
 
-- 📚 Saved Notes
-- 📝 Generated Quizzes
-- 🎴 Flashcards
-- 📅 Study Plans
-- 📈 Learning Progress
+Dashboard includes:
 
----
-
-## 🔐 Secure Authentication
-
-- Firebase Authentication
-- Individual student accounts
-- Secure cloud-based data storage
+- Saved notes count
+- Generated quizzes count
+- Flashcards count
+- Study plans count
+- Learning progress tracking
 
 ---
 
-# 🛠️ Technology Stack
+## 🔐 User Authentication
 
-## Frontend
-- ⚛️ React.js
-- ⚡ Vite
-- 🎨 Tailwind CSS
-- 🧭 React Router
+Secure user management using Firebase Authentication.
 
-## Backend & Database
-- 🔥 Firebase Authentication
-- ☁️ Firebase Firestore
+Features:
 
-## Artificial Intelligence
-- ✨ Google Gemini AI API
-
-## Deployment
-- 🚀 Vercel
+- User registration
+- Login system
+- Personal student accounts
+- Private learning data
 
 ---
 
-# 📂 Project Structure
+# 🤖 Artificial Intelligence Feature
+
+LearnLens AI uses **Google Gemini AI** as the intelligent learning engine.
+
+## AI Capabilities
+
+### AI Explanation System
+
+Students enter a topic or upload notes, and Gemini AI explains concepts in simple student-friendly language.
+
+### AI Quiz Creation
+
+Gemini generates practice questions to help students prepare for exams.
+
+### AI Flashcard Generation
+
+Gemini converts learning content into quick revision cards.
+
+### AI Study Coaching
+
+Gemini creates personalized study plans according to:
+
+- Subject
+- Exam date
+- Available study time
+
+---
+
+# 🧠 AI System Instructions / Prompt Design
+
+The AI assistant was developed using custom instructions written specifically for educational purposes.
+
+Example system instruction:
